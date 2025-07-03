@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbilling.sdk\\models\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|solutionrelative:providerbilling.sdk\\models\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbilling.sdk\\models\\billingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|solutionrelative:providerbilling.sdk\\models\\billingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\dataingestionconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\dataingestionconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\domain\\medicalbillingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\domain\\medicalbillingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\domain\\medicalbillingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\domain\\medicalbillingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbilling.sdk\\models\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|solutionrelative:providerbilling.sdk\\models\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbilling.sdk\\models\\billingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|solutionrelative:providerbilling.sdk\\models\\billingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Program.cs",
+              "RelativeDocumentMoniker": "DataIngestionConsole\\Program.cs",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Program.cs",
+              "RelativeToolTip": "DataIngestionConsole\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwLsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:15:30.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicalBillingQuery.cs",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Domain\\MedicalBillingQuery.cs",
+              "RelativeDocumentMoniker": "DataIngestionConsole\\Domain\\MedicalBillingQuery.cs",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Domain\\MedicalBillingQuery.cs",
+              "RelativeToolTip": "DataIngestionConsole\\Domain\\MedicalBillingQuery.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:10:44.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicalBillingContext.cs",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Domain\\MedicalBillingContext.cs",
+              "RelativeDocumentMoniker": "DataIngestionConsole\\Domain\\MedicalBillingContext.cs",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Domain\\MedicalBillingContext.cs",
+              "RelativeToolTip": "DataIngestionConsole\\Domain\\MedicalBillingContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:10:18.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BillingRecord.cs",
               "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBilling.Sdk\\Models\\BillingRecord.cs",
               "RelativeDocumentMoniker": "ProviderBilling.Sdk\\Models\\BillingRecord.cs",
@@ -43,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Provider.cs",
               "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBilling.Sdk\\Models\\Provider.cs",
               "RelativeDocumentMoniker": "ProviderBilling.Sdk\\Models\\Provider.cs",
@@ -56,27 +103,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DataIngestionConsole.csproj",
               "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\DataIngestionConsole.csproj",
               "RelativeDocumentMoniker": "DataIngestionConsole\\DataIngestionConsole.csproj",
               "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\DataIngestionConsole.csproj",
               "RelativeToolTip": "DataIngestionConsole\\DataIngestionConsole.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-02T23:57:37.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Program.cs",
-              "RelativeDocumentMoniker": "DataIngestionConsole\\Program.cs",
-              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Program.cs",
-              "RelativeToolTip": "DataIngestionConsole\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T23:43:56.802Z",
+              "WhenOpened": "2025-07-02T23:57:37.073Z",
               "EditorCaption": ""
             }
           ]

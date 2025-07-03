@@ -7,4 +7,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="LumenWorks.Framework.IO" Version="3.8.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="9.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.6" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProviderBilling.Sdk\ProviderBilling.Sdk.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="CSV\Reduced_MUP_PHT_R25_P05_V20_D23_Prov_Svc.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
