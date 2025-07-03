@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\dataingestionconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\dataingestionconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,23 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataIngestionConsole",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\DataIngestionConsole.csproj",
+              "RelativeDocumentMoniker": "DataIngestionConsole\\DataIngestionConsole.csproj",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\DataIngestionConsole.csproj",
+              "RelativeToolTip": "DataIngestionConsole\\DataIngestionConsole.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-02T23:57:37.073Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Program.cs",
               "RelativeDocumentMoniker": "DataIngestionConsole\\Program.cs",
               "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Program.cs",
               "RelativeToolTip": "DataIngestionConsole\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T21:27:16.341Z",
+              "WhenOpened": "2025-07-02T23:43:56.802Z",
               "EditorCaption": ""
             }
           ]
