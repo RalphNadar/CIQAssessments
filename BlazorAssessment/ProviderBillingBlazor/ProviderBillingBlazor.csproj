@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataIngestionConsole\DataIngestionConsole.csproj" />
+    <ProjectReference Include="..\ProviderBilling.Sdk\ProviderBilling.Sdk.csproj" />
+  </ItemGroup>
+
 </Project>

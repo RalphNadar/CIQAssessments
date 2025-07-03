@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbillingblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|solutionrelative:providerbillingblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\dataingestionconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\dataingestionconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbillingblazor\\components\\pages\\providers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|solutionrelative:providerbillingblazor\\components\\pages\\providers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\domain\\medicalbillingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\domain\\medicalbillingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbillingblazor\\components\\pages\\providerdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|solutionrelative:providerbillingblazor\\components\\pages\\providerdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\dataingestionconsole\\domain\\medicalbillingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A29FAF7-403B-4C4A-AC6C-BD769051B691}|DataIngestionConsole\\DataIngestionConsole.csproj|solutionrelative:dataingestionconsole\\domain\\medicalbillingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbillingblazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|solutionrelative:providerbillingblazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbilling.sdk\\models\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|solutionrelative:providerbilling.sdk\\models\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbillingblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|solutionrelative:providerbillingblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbilling.sdk\\models\\billingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADB6AA78-5BEE-46D3-B94A-EC005F36ACBD}|ProviderBilling.Sdk\\ProviderBilling.Sdk.csproj|solutionrelative:providerbilling.sdk\\models\\billingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbillingblazor\\providerbillingblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|solutionrelative:providerbillingblazor\\providerbillingblazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|c:\\sourcecontrol\\ciqassessments\\blazorassessment\\providerbillingblazor\\controllers\\repocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAE7E52-39CD-4190-9D72-C842BD4F8290}|ProviderBillingBlazor\\ProviderBillingBlazor.csproj|solutionrelative:providerbillingblazor\\controllers\\repocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +43,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Program.cs",
-              "RelativeDocumentMoniker": "DataIngestionConsole\\Program.cs",
-              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Program.cs",
-              "RelativeToolTip": "DataIngestionConsole\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAqwLsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T00:15:30.225Z",
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ProviderBillingBlazor\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ProviderBillingBlazor\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T00:31:03.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MedicalBillingQuery.cs",
-              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Domain\\MedicalBillingQuery.cs",
-              "RelativeDocumentMoniker": "DataIngestionConsole\\Domain\\MedicalBillingQuery.cs",
-              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Domain\\MedicalBillingQuery.cs",
-              "RelativeToolTip": "DataIngestionConsole\\Domain\\MedicalBillingQuery.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T00:10:44.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MedicalBillingContext.cs",
-              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Domain\\MedicalBillingContext.cs",
-              "RelativeDocumentMoniker": "DataIngestionConsole\\Domain\\MedicalBillingContext.cs",
-              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\Domain\\MedicalBillingContext.cs",
-              "RelativeToolTip": "DataIngestionConsole\\Domain\\MedicalBillingContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T00:10:18.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BillingRecord.cs",
-              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBilling.Sdk\\Models\\BillingRecord.cs",
-              "RelativeDocumentMoniker": "ProviderBilling.Sdk\\Models\\BillingRecord.cs",
-              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBilling.Sdk\\Models\\BillingRecord.cs",
-              "RelativeToolTip": "ProviderBilling.Sdk\\Models\\BillingRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T00:06:51.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Provider.cs",
-              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBilling.Sdk\\Models\\Provider.cs",
-              "RelativeDocumentMoniker": "ProviderBilling.Sdk\\Models\\Provider.cs",
-              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBilling.Sdk\\Models\\Provider.cs",
-              "RelativeToolTip": "ProviderBilling.Sdk\\Models\\Provider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T00:06:32.094Z",
+              "Title": "ProviderDetail.razor",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Components\\Pages\\ProviderDetail.razor",
+              "RelativeDocumentMoniker": "ProviderBillingBlazor\\Components\\Pages\\ProviderDetail.razor",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Components\\Pages\\ProviderDetail.razor",
+              "RelativeToolTip": "ProviderBillingBlazor\\Components\\Pages\\ProviderDetail.razor",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T00:28:58.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataIngestionConsole.csproj",
-              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\DataIngestionConsole.csproj",
-              "RelativeDocumentMoniker": "DataIngestionConsole\\DataIngestionConsole.csproj",
-              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\DataIngestionConsole\\DataIngestionConsole.csproj",
-              "RelativeToolTip": "DataIngestionConsole\\DataIngestionConsole.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Title": "Providers.razor",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Components\\Pages\\Providers.razor",
+              "RelativeDocumentMoniker": "ProviderBillingBlazor\\Components\\Pages\\Providers.razor",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Components\\Pages\\Providers.razor",
+              "RelativeToolTip": "ProviderBillingBlazor\\Components\\Pages\\Providers.razor",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T00:28:42.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepoController.cs",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Controllers\\RepoController.cs",
+              "RelativeDocumentMoniker": "ProviderBillingBlazor\\Controllers\\RepoController.cs",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Controllers\\RepoController.cs",
+              "RelativeToolTip": "ProviderBillingBlazor\\Controllers\\RepoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:24:00.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\appsettings.json",
+              "RelativeDocumentMoniker": "ProviderBillingBlazor\\appsettings.json",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\appsettings.json",
+              "RelativeToolTip": "ProviderBillingBlazor\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-03T00:21:27.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProviderBillingBlazor",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\ProviderBillingBlazor.csproj",
+              "RelativeDocumentMoniker": "ProviderBillingBlazor\\ProviderBillingBlazor.csproj",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\ProviderBillingBlazor.csproj",
+              "RelativeToolTip": "ProviderBillingBlazor\\ProviderBillingBlazor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-02T23:57:37.073Z",
+              "WhenOpened": "2025-07-03T00:19:52.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "ProviderBillingBlazor\\Program.cs",
+              "ToolTip": "C:\\SourceControl\\CIQAssessments\\BlazorAssessment\\ProviderBillingBlazor\\Program.cs",
+              "RelativeToolTip": "ProviderBillingBlazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T00:18:18.418Z",
               "EditorCaption": ""
             }
           ]

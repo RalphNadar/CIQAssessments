@@ -1,0 +1,89 @@
+﻿@page "/ProviderDetail"
+@attribute [StreamRendering]
+@using ProviderBilling.Sdk.Models;
+@inject HttpClient HttpClient;
+
+
+<PageTitle>Provider</PageTitle>
+
+<h1>Provider Details</h1>
+
+<p>Top HCPCS Codes by Total Payment</p>
+
+<div class="row">
+    <div class="col-lg-6">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>NPI</th>
+                    <th>HCPCSCode </th>
+                    <th>HCPCSDescription</th>
+                    <th>PlaceOfService</th>
+                    <th>NumberOfServices</th>
+                    <th>TotalMedicarePayment</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in TopHCPCS)
+                {
+                    <tr>
+                        <td>@item.NPI</td>
+                        <td>@item.HCPCSCode</td>
+                        <td>@item.HCPCSDescription</td>
+                        <td>@item.PlaceOfService</td>
+                        <td>@item.NumberOfServices</td>
+                        <td>@item.TotalMedicarePayment</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>NPI</th>
+                    <th>HCPCSCode </th>
+                    <th>HCPCSDescription</th>
+                    <th>PlaceOfService</th>
+                    <th>NumberOfServices</th>
+                    <th>TotalMedicarePayment</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in OriginalData)
+                {
+                    <tr>
+                        <td>@item.NPI</td>
+                        <td>@item.HCPCSCode</td>
+                        <td>@item.HCPCSDescription</td>
+                        <td>@item.PlaceOfService</td>
+                        <td>@item.NumberOfServices</td>
+                        <td>@item.TotalMedicarePayment</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+@code {
+    private List<BillingRecord> OriginalData = new List<BillingRecord>();
+    private List<BillingRecord> TopHCPCS = new List<BillingRecord>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        OriginalData = await HttpClient.GetFromJsonAsync<List<BillingRecord>>("/api/Repo/GetRecords");
+
+        if (OriginalData != null && OriginalData.Count > 0)
+        {
+            TopHCPCS = OriginalData.OrderByDescending(x => x.TotalMedicarePayment).Take(10).ToList();
+
+        }
+    }
+}

@@ -1,0 +1,132 @@
+﻿@page "/providers"
+@attribute [StreamRendering]
+@using ProviderBilling.Sdk.Models;
+@inject HttpClient HttpClient;
+
+<PageTitle>Provider</PageTitle>
+
+<h1>Providers</h1>
+
+<p>This component displays a list of providers</p>
+
+<div class="filter-controls mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <label for="npiSearch">Search NPI:</label>
+            <div class="input-group">
+                <input id="npiSearch" class="form-control" @bind="npiInput" placeholder="Enter NPI" />
+                <button class="btn btn-primary" @onclick="ApplyNpiFilter">Search</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="specialtyFilter">Specialty:</label>
+            <select id="specialtyFilter" class="form-control" @bind="specialtyFilter" @bind:after="StateHasChanged">
+                <option value="">All Specialties</option>
+                @foreach (var specialty in specialties)
+                {
+                    <option value="@specialty">@specialty</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="stateFilter">State:</label>
+            <select id="stateFilter" class="form-control" @bind="stateFilter" @bind:after="StateHasChanged">
+                <option value="">All States</option>
+                @foreach (var state in states)
+                {
+                    <option value="@state">@state</option>
+                }
+            </select>
+        </div>
+    </div>
+</div>
+
+@if (providerList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @if (FilteredProviders.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>NPI</th>
+                    <th>Provider Name</th>
+                    <th>Specialty</th>
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in FilteredProviders)
+                {
+                    <tr>
+                        <td>@item.NPI</td>
+                        <td>@item.ProviderName</td>
+                        <td>@item.Specialty</td>
+                        <td>@item.State</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-muted">No providers match the current filters.</p>
+    }
+
+}
+
+@code {
+    private List<Provider> providerList = new List<Provider>();
+    private List<Provider> FilteredProviders = new List<Provider>();
+
+    private string npiInput = "";
+    private string npiFilter = "";
+    private string specialtyFilter = "";
+    private string stateFilter = "";
+    private List<string> specialties = new List<string>();
+    private List<string> states = new List<string>();
+
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(500);
+        providerList = await HttpClient.GetFromJsonAsync<List<Provider>>("/api/Repo/GetProviders");
+
+        if (providerList != null)
+        {
+            specialties = providerList.Select(p => p.Specialty)
+                                    .Distinct()
+                                    .OrderBy(s => s)
+                                    .ToList();
+            states = providerList.Select(p => p.State)
+                                .Distinct()
+                                .OrderBy(s => s)
+                                .ToList();
+
+            FilteredProviders = providerList;
+        }
+        StateHasChanged();
+    }
+
+    private void ApplyNpiFilter()
+    {
+        if (string.IsNullOrWhiteSpace(npiInput))
+        {
+            FilteredProviders = providerList; 
+        }
+        else
+        {
+            FilteredProviders = providerList
+                .Where(item => item.NPI.Contains(npiInput, StringComparison.OrdinalIgnoreCase) ||
+                               item.ProviderName.Contains(npiInput, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
+        StateHasChanged();
+    }
+
+}
